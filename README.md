@@ -1,43 +1,25 @@
-## Smart-Home-Automation
+# Smart Home Automation
 
-The Home Automation System was made with Arduino based microcontroller Node-MCU coupled with a relay board 
-and a few jumper cables. To top everything the output is presented in a way that shows how to project works and how 
-the appliances can turn on/off according to the instruction we give to it.
+The Smart Home Automation system is a project that allows you to control appliances in your home using a microcontroller and a relay board. It can also be integrated with Amazon Alexa for voice control.
 
-# Components
+## Components
+- Node-MCU microcontroller
+- Relay board
+- Jumper wires
+- Micro USB cable
+- Switches
+- Amazon Alexa (optional)
 
-+ Node-MCU
-+ Relay Board
-+ Jumper Wires
-+ Micro USB Cable
-+ Switches
-+ Amazon Alexa (Optional)
-
-
-# List of inputs / Output
-
-+ Gather around all the components in the list
-+ Go to the web browser and search for the latest tasmota firmware
-+ Download the “tasmota.bin” file and the tasmota software itself
-+ Open the software and plug your microcontroller to your computer
-+ Press refresh in Select Port menu, it would automatically select the port for the board
-+ Select the “self-resetting device” option
-+ Upload the file and click the button which says “Tasmotize!”
-+ Wait for it to upload then press on “Send config”
-+ Enter your Wi-Fi Credentials and press save
-+ Wait for about 5 to 10 seconds and press on “Get IP”
-+ Copy the IP-Address for the field
-+ Open your browser and paste the IP-Address you copied
-+ Go to Configuration -> Configure Module -> select Generic (0) from the Module type
-+ Click on save, Go to main Menu
-+ Go to Configuration -> Configure Module -> and select the pins mentioned in 2.2.2
-+ Press save and go to Main Menu
-
-#  Setting up Alexa:
-
-+ Go to Configure -> Configure Other -> Enter the Project name / Switch names
-+ In Emulation select Hue Bridge and press save
-+ Open your Amazon Alexa app and add devices
-+ Follow the procedure in the app and you would be prompted with 4 devices
-+ Set them up through the app
-
+## Setup
+1. Gather all the components listed above.
+2. Download the latest Tasmota firmware and software from the web.
+3. Connect the microcontroller to your computer and open the Tasmota software.
+4. Select the correct port for the board in the "Select Port" menu and choose the "self-resetting device" option.
+5. Upload the Tasmota firmware file and click the "Tasmotize!" button.
+6. After the firmware has been uploaded, click the "Send config" button and enter your Wi-Fi credentials.
+7. Wait for 5-10 seconds and click the "Get IP" button.
+8. Copy the IP address and paste it into your web browser.
+9. Go to the Configuration menu and select "Configure Module". Choose the "Generic (0)" option from the Module type.
+10. Save the configuration and go to the main menu.
+11. In the Configuration menu, select "Configure Module" again and choose the pins mentioned in the instructions.
+12. Save the configuration and go back to the main menu.
