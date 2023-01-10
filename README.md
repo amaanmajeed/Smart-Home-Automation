@@ -1,6 +1,6 @@
 # Home Automation System
 
-[![Demo Video](https://cdn.ttgtmedia.com/rms/onlineImages/iota-smart_home_mobile.jpg)](https://www.youtube.com/watch?v=5FlS6LLHeyM)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5FlS6LLHeyM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Project Overview
 
