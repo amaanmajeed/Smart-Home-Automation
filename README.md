@@ -1,25 +1,37 @@
-# Smart Home Automation
+# Home Automation System
 
-The Smart Home Automation system is a project that allows you to control appliances in your home using a microcontroller and a relay board. It can also be integrated with Amazon Alexa for voice control.
+[![Demo Video](https://cdn.ttgtmedia.com/rms/onlineImages/iota-smart_home_mobile.jpg)](https://www.youtube.com/watch?v=5FlS6LLHeyM)
 
-## Components
-- Node-MCU microcontroller
-- Relay board
-- Jumper wires
-- Micro USB cable
-- Switches
-- Amazon Alexa (optional)
+## Project Overview
 
-## Setup
-1. Gather all the components listed above.
-2. Download the latest Tasmota firmware and software from the web.
-3. Connect the microcontroller to your computer and open the Tasmota software.
-4. Select the correct port for the board in the "Select Port" menu and choose the "self-resetting device" option.
-5. Upload the Tasmota firmware file and click the "Tasmotize!" button.
-6. After the firmware has been uploaded, click the "Send config" button and enter your Wi-Fi credentials.
-7. Wait for 5-10 seconds and click the "Get IP" button.
-8. Copy the IP address and paste it into your web browser.
-9. Go to the Configuration menu and select "Configure Module". Choose the "Generic (0)" option from the Module type.
-10. Save the configuration and go to the main menu.
-11. In the Configuration menu, select "Configure Module" again and choose the pins mentioned in the instructions.
-12. Save the configuration and go back to the main menu.
+The Home Automation System is a device designed to support elderly and disabled individuals in their homes. It utilizes wireless Bluetooth technology to allow users to remotely control and monitor their appliances and devices from a PC, laptop, or Android phone. The system uses low voltage activating methods to provide additional safety and security for users. It also syncs the status of switches across all control systems, allowing users to view the real-time status of their appliances and devices. The HAS aims to improve the quality of life for individuals living at home by providing a user-friendly interface and easy installation process at a relatively low cost. It can be used to control a variety of electrical appliances and devices, including switches, to enhance the standard of living at home.
+
+## Uses
+- Turn electrical appliances on and off remotely
+- No need to physically get up to turn lights off
+- Remotely access the system from anywhere in the world
+
+## Advantages
+- No need to physically get up
+- Accessible through Phone/Laptop/Tablet/Amazon Alexa
+
+## Problem Statement
+The Home Automation System aims to break the barrier between a normal person and a disabled person, ultimately making them less dependent on others to control their life.
+
+## Functionality
+The product is used for smart home purposes and can be used with or without internet when connected to a Home Assistant. The project currently has the capability to turn switches on and off, acting as an extension cable for electrical appliances. They can be turned on by smartphone, Laptop, or Tablet. Users can also pair their Amazon Echo device to further enhance the experience. 
+
+## External Interface Requirements
+- Internet connection (optional)
+- Smartphone, Laptop, Tablet or Amazon Echo device for remote control
+
+## Future Work
+- Implementation of additional features such as automation rules, remote access, and alerts for certain events
+- Integration with other smart home systems, such as home security systems and home entertainment systems
+- Improving the user interface and making it more customizable
+- Development of a mobile application for easy access
+- Make use of advanced security features like touchless controls, facial recognition, and gesture controls.
+- Adding the capability to monitor energy usage and set up alerts for maintenance tasks
+
+## Conclusion
+The Home Automation System is a device that allows users to remotely control and monitor their appliances, providing convenience and security for all users, particularly for the older generation. With an Arduino-based micro
